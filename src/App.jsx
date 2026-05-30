@@ -1,3 +1,4 @@
+import logo from './assets/logo.png'
 import posterKispe from './assets/poster-kispe-main.jpeg'
 import posterBirthday from './assets/poster-birthday.png'
 import posterGurjar from './assets/poster-gurjar.png'
@@ -5,104 +6,158 @@ import posterSurat from './assets/poster-surat.png'
 import decathlonOne from './assets/decathlon-event-1.jpeg'
 import decathlonTwo from './assets/decathlon-event-2.jpeg'
 import certificate from './assets/decathlon-certificate.png'
+import whatsappQr from './assets/whatsapp-qr.svg'
 
 const whatsappNumber = '917053120268'
-const whatsappText = encodeURIComponent('Hello RL MEDIA, I want to book photography/videography service.')
-const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappText}`
 const instagramLink = 'https://www.instagram.com/rohan_loniwala/'
+const youtubeChannel = 'https://youtube.com/@pradhanrecords?si=QxtWKT9GKcvTyUfA'
+
+const wa = (reason) =>
+  `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+    `Hello RL MEDIA, I want to contact you for ${reason}. Please share details.`
+  )}`
+
+const services = [
+  ['Photography', 'Professional photos for every moment'],
+  ['Cinematography', 'Cinematic frames and storytelling'],
+  ['Video Editing', 'Reels, highlights and full edits'],
+  ['Director', 'Creative direction for shoots'],
+  ['Event Photography', 'Corporate, sports and brand events'],
+  ['Pre-wedding Photography', 'Premium couple shoots'],
+]
 
 const songProjects = [
   {
-    title: 'Kispe Main Vishwas Karu',
-    type: 'Devotional Music Video',
-    image: posterKispe,
-    details: 'Poster, DOP/Edit contribution and creative visuals featuring Rohan Loniwala.'
-  },
-  {
-    title: 'Yaar Ka Happy Birthday 2',
-    type: 'Celebration Song Project',
+    title: 'Yaar Ka Happy Birthday - 2',
     image: posterBirthday,
-    details: 'Birthday theme music video poster and promotional creative.'
+    link: 'https://youtu.be/zGLEFOPFp74?si=0b4pAldsDS7i2I38',
   },
   {
-    title: 'Gurjar Nirale',
-    type: 'Cultural Music Video',
+    title: 'Kispe Main Vishwash Karu',
+    image: posterKispe,
+    link: 'https://youtu.be/QsY8uaWby3E?si=fsW3MUuJDwnncyQu',
+  },
+  {
+    title: 'Up Ka Kon Kehvega',
     image: posterGurjar,
-    details: 'Community culture based music video promotional artwork.'
+    link: 'https://youtu.be/_ajID01L_58?si=CVchjGzPbtqUf9EF',
   },
   {
-    title: 'Surat Pyari',
-    type: 'Romantic/Folk Music Video',
+    title: 'Bin Olhe Ke',
     image: posterSurat,
-    details: 'Colorful folk style poster and creative promotion.'
+    link: 'https://youtu.be/UpdO8OIkQSg?si=R-_4EPnzzxROmgxW',
   },
 ]
 
 function App() {
   return (
     <main>
-      <a className="floating-whatsapp" href={whatsappLink} target="_blank" rel="noreferrer">
+      <a className="floating-whatsapp" href={wa('general enquiry')} target="_blank" rel="noreferrer">
         WhatsApp
       </a>
 
       <header className="hero" id="home">
+        <img className="hero-watermark" src={logo} alt="" />
+
         <nav className="nav">
-          <div className="logo">RL MEDIA</div>
+          <a className="brand" href="#home">
+            <img src={logo} alt="RL MEDIA logo" />
+            <span>RL MEDIA</span>
+          </a>
+
           <div className="nav-links">
+            <a href="#services">Menu</a>
             <a href="#songs">Songs</a>
             <a href="#events">Events</a>
             <a href="#certificate">Certificate</a>
             <a href="#contact">Contact</a>
           </div>
+
+          <a className="nav-btn" href={wa('booking enquiry')} target="_blank" rel="noreferrer">
+            WhatsApp Us
+          </a>
         </nav>
 
-        <div className="hero-content">
-          <p className="tag">Photography • Videography • Editing</p>
-          <h1>RL MEDIA</h1>
-          <p className="hero-text">
-            Professional photography and videography team for music videos, sports events,
-            pre-wedding shoots, brand events and cinematic memories.
-          </p>
-          <div className="hero-buttons">
-            <a href={whatsappLink} target="_blank" rel="noreferrer" className="btn primary">Book on WhatsApp</a>
-            <a href={instagramLink} target="_blank" rel="noreferrer" className="btn secondary">Instagram</a>
-          </div>
+        <div className="hero-grid">
+          <section className="hero-left">
+            <p className="tag">Premium Photography • Videography • Editing</p>
+            <h1>Your Moments, Our Cinematic Vision</h1>
+            <p>
+              RL MEDIA creates professional visuals for song shoots, weddings, events,
+              sports coverage, pre-wedding shoots, reels and brand promotions.
+            </p>
+
+            <div className="hero-actions">
+              <a className="btn primary" href={wa('wedding, event or shoot enquiry')} target="_blank" rel="noreferrer">
+                Chat on WhatsApp
+              </a>
+              <a className="btn secondary" href="#songs">View Song Work</a>
+            </div>
+
+            <div className="quick-stats">
+              <div><strong>100+</strong><span>Song Shoots</span></div>
+              <div><strong>50+</strong><span>Events</span></div>
+              <div><strong>Decathlon</strong><span>Sports Utsav</span></div>
+            </div>
+          </section>
+
+          <aside className="whatsapp-panel">
+            <h2>Why do you want to contact?</h2>
+            <p>Select one option and WhatsApp message will open automatically.</p>
+            <a href={wa('wedding photography and videography')} target="_blank" rel="noreferrer">Wedding Enquiry <span>›</span></a>
+            <a href={wa('event photography and videography')} target="_blank" rel="noreferrer">Event Enquiry <span>›</span></a>
+            <a href={wa('music video shoot')} target="_blank" rel="noreferrer">Music Video Shoot <span>›</span></a>
+            <a href={wa('pre-wedding shoot')} target="_blank" rel="noreferrer">Pre-wedding Shoot <span>›</span></a>
+            <a href={wa('video editing or general enquiry')} target="_blank" rel="noreferrer">General Enquiry <span>›</span></a>
+          </aside>
         </div>
       </header>
 
-      <section className="stats">
-        <div><strong>100+</strong><span>Song Shoots</span></div>
-        <div><strong>Decathlon</strong><span>Event Coverage</span></div>
-        <div><strong>Pre-Wedding</strong><span>Cinematic Shoots</span></div>
-        <div><strong>Sports</strong><span>Photography</span></div>
-      </section>
-
       <section className="section about">
         <div>
-          <p className="section-tag">About Us</p>
-          <h2>Creative visuals for brands, artists and events.</h2>
+          <p className="section-tag">About RL MEDIA</p>
+          <h2>Creative production team for artists, brands and events.</h2>
         </div>
         <p>
-          RL MEDIA captures high-energy events, music video projects and professional
-          portfolio shoots with a cinematic look. From Decathlon Sports Utsav coverage to
-          song posters and videos, we deliver content ready for social media and promotion.
+          We provide photography, cinematography, direction, video editing, event photography
+          and pre-wedding photography. Our work includes music video shoots, Decathlon event
+          coverage and promotional visuals.
         </p>
+      </section>
+
+      <section className="section" id="services">
+        <p className="section-tag">Menu / Services</p>
+        <h2>What We Do</h2>
+        <div className="service-grid">
+          {services.map(([title, text]) => (
+            <div className="service-card" key={title}>
+              <h3>{title}</h3>
+              <p>{text}</p>
+            </div>
+          ))}
+        </div>
       </section>
 
       <section className="section" id="songs">
         <p className="section-tag">Songs & Music Video Projects</p>
-        <h2>Featured Song Posters</h2>
+        <h2>Featured Song Shoots</h2>
         <div className="song-grid">
-          {songProjects.map((item) => (
-            <article className="song-card" key={item.title}>
-              <img src={item.image} alt={item.title} />
+          {songProjects.map((song) => (
+            <article className="song-card" key={song.title}>
+              <img src={song.image} alt={song.title} />
               <div>
-                <span>{item.type}</span>
-                <h3>{item.title}</h3>
-                <p>{item.details}</p>
+                <h3>{song.title}</h3>
+                <a href={song.link} target="_blank" rel="noreferrer">Watch on YouTube</a>
               </div>
             </article>
           ))}
+        </div>
+        <div className="youtube-strip">
+          <div>
+            <span>Official YouTube Channel</span>
+            <strong>Pradhan Records</strong>
+          </div>
+          <a href={youtubeChannel} target="_blank" rel="noreferrer">Open Channel</a>
         </div>
       </section>
 
@@ -110,57 +165,65 @@ function App() {
         <p className="section-tag">Event Photography</p>
         <h2>Decathlon Sports Utsav 2026</h2>
         <p className="section-intro">
-          Event photography and videography coverage for Decathlon Sports Utsav, capturing
-          team moments, participants, brand visibility and celebration of sports.
+          Professional photography and videography coverage for Decathlon Sports Utsav.
         </p>
         <div className="event-grid">
-          <img src={decathlonOne} alt="Decathlon Sports Utsav banner and team" />
-          <img src={decathlonTwo} alt="Decathlon Sports Utsav group photo" />
+          <img src={decathlonOne} alt="Decathlon Sports Utsav event" />
+          <img src={decathlonTwo} alt="Decathlon Sports Utsav group" />
         </div>
       </section>
 
       <section className="section certificate-section" id="certificate">
-        <div className="cert-text">
+        <div>
           <p className="section-tag">Authorized & Certificate</p>
           <h2>Certificate of Appreciation</h2>
           <p>
             Presented for outstanding contribution in photography and videography for
-            Decathlon Sports Utsav events conducted on 23rd and 24th May 2026.
+            Decathlon Sports Utsav events conducted by Decathlon.
           </p>
         </div>
         <div className="certificate-frame">
-          <img src={certificate} alt="Decathlon Sports Utsav Certificate of Appreciation" />
-        </div>
-      </section>
-
-      <section className="section services">
-        <p className="section-tag">Our Services</p>
-        <h2>What We Do</h2>
-        <div className="service-grid">
-          <div>Wedding & Pre-Wedding Shoot</div>
-          <div>Music Video Shoot</div>
-          <div>Sports Event Photography</div>
-          <div>Brand Event Coverage</div>
-          <div>Poster & Promo Creative</div>
-          <div>Video Editing & Reels</div>
+          <img src={certificate} alt="Decathlon certificate" />
         </div>
       </section>
 
       <section className="contact" id="contact">
+        <img className="contact-logo" src={logo} alt="RL MEDIA logo" />
         <p className="section-tag">Contact</p>
         <h2>Book RL MEDIA for your next shoot</h2>
-        <div className="contact-box">
-          <a href="tel:+917053120268">7053120268</a>
-          <a href="tel:+9180768693705">80768693705</a>
-          <a href="mailto:seh.rohan@gmail.com">seh.rohan@gmail.com</a>
-          <a href={instagramLink} target="_blank" rel="noreferrer">Instagram: @rohan_loniwala</a>
-          <a href={whatsappLink} target="_blank" rel="noreferrer" className="btn primary">Send WhatsApp Message</a>
+        <p className="contact-note">
+          Direct personal number hidden for privacy. Use WhatsApp enquiry options or email.
+        </p>
+
+        <div className="contact-grid">
+          <div className="contact-card">
+            <h3>Email</h3>
+            <a href="mailto:seh.rohan@gmail.com">seh.rohan@gmail.com</a>
+          </div>
+
+          <div className="contact-card">
+            <h3>Contact Number</h3>
+            <a href="tel:+918076869370">8076869370</a>
+          </div>
+
+          <div className="contact-card qr-card">
+            <img src={whatsappQr} alt="WhatsApp scanner" />
+            <h3>WhatsApp Scanner</h3>
+            <a href={wa('booking enquiry')} target="_blank" rel="noreferrer">Message on WhatsApp</a>
+          </div>
         </div>
       </section>
 
       <footer>
-        <strong>RL MEDIA</strong>
-        <span>© 2026 Photography & Videography Portfolio</span>
+        <div className="footer-brand">
+          <img src={logo} alt="RL MEDIA logo" />
+          <span>RL MEDIA</span>
+        </div>
+        <div className="footer-links">
+          <a href={instagramLink} target="_blank" rel="noreferrer">Instagram</a>
+          <a href={youtubeChannel} target="_blank" rel="noreferrer">YouTube Channel</a>
+        </div>
+        <p>© 2026 RL MEDIA. All Rights Reserved. Photography & Videography.</p>
       </footer>
     </main>
   )
