@@ -1,8 +1,8 @@
 import logo from './assets/logo.png'
 import posterKispe from './assets/poster-kispe-main.jpeg'
 import posterBirthday from './assets/poster-birthday.png'
-import posterGurjar from './assets/poster-gurjar.png'
-import posterSurat from './assets/poster-surat.png'
+import posterUp from './assets/poster-up-ka-kon-kehvega.png'
+import posterBin from './assets/poster-bin-olhe-ke.png'
 import decathlonOne from './assets/decathlon-event-1.jpeg'
 import decathlonTwo from './assets/decathlon-event-2.jpeg'
 import certificate from './assets/decathlon-certificate.png'
@@ -39,12 +39,12 @@ const songProjects = [
   },
   {
     title: 'Up Ka Kon Kehvega',
-    image: posterGurjar,
+    image: posterUp,
     link: 'https://youtu.be/_ajID01L_58?si=CVchjGzPbtqUf9EF',
   },
   {
     title: 'Bin Olhe Ke',
-    image: posterSurat,
+    image: posterBin,
     link: 'https://youtu.be/UpdO8OIkQSg?si=R-_4EPnzzxROmgxW',
   },
 ]

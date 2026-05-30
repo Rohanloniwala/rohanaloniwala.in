@@ -1,7 +1,7 @@
 {
-  "name": "rlmedia-version-3-premium",
+  "name": "rlmedia-version-3-final-edited",
   "private": true,
-  "version": "3.0.0",
+  "version": "3.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
