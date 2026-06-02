@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import logo from './assets/logo.png'
 import posterKispe from './assets/poster-kispe-main.jpeg'
 import posterBirthday from './assets/poster-birthday.png'
@@ -50,6 +51,24 @@ const songProjects = [
 ]
 
 function App() {
+
+  useEffect(() => {
+    const script1 = document.createElement("script");
+    script1.async = true;
+    script1.src =
+      "https://www.googletagmanager.com/gtag/js?id=G-L78VCK45VV";
+    document.head.appendChild(script1);
+
+    const script2 = document.createElement("script");
+    script2.innerHTML = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-L78VCK45VV');
+    `;
+    document.head.appendChild(script2);
+  }, []);
+
   return (
     <main>
       <a className="floating-whatsapp" href={wa('general enquiry')} target="_blank" rel="noreferrer">
