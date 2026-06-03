@@ -301,19 +301,51 @@ function App() {
         </div>
       </section>
 
-      <section className="contact" id="contact">
-        <img className="contact-logo" src={logo} alt="RL MEDIA logo" />
-        <p className="section-tag">Contact</p>
-        <h2>Book RL MEDIA for your next shoot</h2>
-        <p className="contact-note">
-          Direct personal number hidden for privacy. Use WhatsApp enquiry options or email.
-        </p>
+      <section id="contact" className="contact-section">
+  <h2>Book RL MEDIA For Your Next Shoot</h2>
+  <p>
+    Contact us for Pre-Wedding, Maternity, Music Video & Event Shoots
+  </p>
 
-        <div className="contact-grid">
-          <div className="contact-card">
-            <h3>Email</h3>
-            <a href="mailto:photography.rlmedia@gmail.com">photography.rlmedia@gmail.com</a>
-          </div>
+  <div className="contact-grid">
+
+    <div className="contact-card">
+      <h3>Email</h3>
+      <a href="mailto:photography.rlmedia@gmail.com">
+        photography.rlmedia@gmail.com
+      </a>
+    </div>
+
+    <div className="contact-card">
+      <h3>Quick Enquiry</h3>
+
+      <a
+        className="wa-btn"
+        href="https://wa.me/918076869370?text=I%20want%20Pre-Wedding%20Details"
+        target="_blank"
+      >
+        Pre Wedding Enquiry
+      </a>
+
+      <a
+        className="wa-btn"
+        href="https://wa.me/918076869370?text=I%20want%20Maternity%20Shoot%20Details"
+        target="_blank"
+      >
+        Maternity Shoot
+      </a>
+
+      <a
+        className="wa-btn"
+        href="https://wa.me/918076869370?text=I%20want%20Music%20Video%20Details"
+        target="_blank"
+      >
+        Music Video Shoot
+      </a>
+    </div>
+
+  </div>
+</section>
 
          
           <div className="contact-card qr-card">
