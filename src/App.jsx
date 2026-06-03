@@ -119,6 +119,101 @@ function App() {
               <div><strong>Decathlon</strong><span>Sports Utsav</span></div>
             </div>
           </section>
+      </section>
+<section id="pricing" className="pricing-section">
+
+<h2>RL MEDIA OFFERS</h2>
+
+<div className="pricing-columns">
+
+<div className="offer-group prewedding">
+
+<h3>PRE WEDDING OFFERS</h3>
+
+<div className="offer-card">
+<h4>Offer 1</h4>
+<p><del>₹29,999</del></p>
+<h2>₹19,999</h2>
+<ul>
+<li>3-4 Min Video</li>
+<li>50 Edited Photos</li>
+<li>100 Raw Photos</li>
+<li>Delhi Location</li>
+</ul>
+</div>
+
+<div className="offer-card">
+<h4>Offer 2</h4>
+<p><del>₹39,999</del></p>
+<h2>₹24,999</h2>
+<ul>
+<li>3-4 Min Video</li>
+<li>50 Edited Photos</li>
+<li>100 Raw Photos</li>
+<li>Delhi Location</li>
+<li>2 Reels</li>
+</ul>
+</div>
+
+<div className="offer-card">
+<h4>Offer 3</h4>
+<p><del>₹44,999</del></p>
+<h2>₹34,999</h2>
+<ul>
+<li>3-4 Min Video</li>
+<li>100 Edited Photos</li>
+<li>200 Raw Photos</li>
+<li>Delhi / Rishikesh</li>
+<li>2 Reels</li>
+<li>Makeup Artist</li>
+</ul>
+</div>
+
+</div>
+
+<div className="offer-group songshoot">
+
+<h3>SONG SHOOT OFFERS</h3>
+
+<div className="offer-card">
+<h4>Offer 1</h4>
+<p><del>₹10,000</del></p>
+<h2>₹6,999</h2>
+<ul>
+<li>Song Direction</li>
+<li>4K Video</li>
+<li>Thumbnail</li>
+<li>10-20 Poster Photos</li>
+</ul>
+</div>
+
+<div className="offer-card">
+<h4>Offer 2</h4>
+<p><del>₹19,999</del></p>
+<h2>₹14,999</h2>
+<ul>
+<li>Song Direction</li>
+<li>4K Video</li>
+<li>Thumbnail</li>
+<li>Location 5 Hours</li>
+<li>Normal Light</li>
+<li>Car For Video</li>
+</ul>
+</div>
+
+<div className="offer-card">
+<h4>Offer 3</h4>
+<p><del>₹29,999</del></p>
+<h2>₹19,999</h2>
+<ul>
+<li>Song Direction</li>
+<li>Sony FX3 Shoot</li>
+<li>Thumbnail</li>
+<li>Location 5 Hours</li>
+<li>Normal Light</li>
+<li>Car For Video</li>
+</ul>
+</div>
 
           <aside className="whatsapp-panel">
             <h2>Why do you want to contact?</h2>
@@ -227,101 +322,6 @@ function App() {
             <a href={wa('booking enquiry')} target="_blank" rel="noreferrer">Message on WhatsApp</a>
           </div>
         </div>
-      </section>
-<section id="pricing" className="pricing-section">
-
-<h2>RL MEDIA OFFERS</h2>
-
-<div className="pricing-columns">
-
-<div className="offer-group prewedding">
-
-<h3>PRE WEDDING OFFERS</h3>
-
-<div className="offer-card">
-<h4>Offer 1</h4>
-<p><del>₹29,999</del></p>
-<h2>₹19,999</h2>
-<ul>
-<li>3-4 Min Video</li>
-<li>50 Edited Photos</li>
-<li>100 Raw Photos</li>
-<li>Delhi Location</li>
-</ul>
-</div>
-
-<div className="offer-card">
-<h4>Offer 2</h4>
-<p><del>₹39,999</del></p>
-<h2>₹24,999</h2>
-<ul>
-<li>3-4 Min Video</li>
-<li>50 Edited Photos</li>
-<li>100 Raw Photos</li>
-<li>Delhi Location</li>
-<li>2 Reels</li>
-</ul>
-</div>
-
-<div className="offer-card">
-<h4>Offer 3</h4>
-<p><del>₹44,999</del></p>
-<h2>₹34,999</h2>
-<ul>
-<li>3-4 Min Video</li>
-<li>100 Edited Photos</li>
-<li>200 Raw Photos</li>
-<li>Delhi / Rishikesh</li>
-<li>2 Reels</li>
-<li>Makeup Artist</li>
-</ul>
-</div>
-
-</div>
-
-<div className="offer-group songshoot">
-
-<h3>SONG SHOOT OFFERS</h3>
-
-<div className="offer-card">
-<h4>Offer 1</h4>
-<p><del>₹10,000</del></p>
-<h2>₹6,999</h2>
-<ul>
-<li>Song Direction</li>
-<li>4K Video</li>
-<li>Thumbnail</li>
-<li>10-20 Poster Photos</li>
-</ul>
-</div>
-
-<div className="offer-card">
-<h4>Offer 2</h4>
-<p><del>₹19,999</del></p>
-<h2>₹14,999</h2>
-<ul>
-<li>Song Direction</li>
-<li>4K Video</li>
-<li>Thumbnail</li>
-<li>Location 5 Hours</li>
-<li>Normal Light</li>
-<li>Car For Video</li>
-</ul>
-</div>
-
-<div className="offer-card">
-<h4>Offer 3</h4>
-<p><del>₹29,999</del></p>
-<h2>₹19,999</h2>
-<ul>
-<li>Song Direction</li>
-<li>Sony FX3 Shoot</li>
-<li>Thumbnail</li>
-<li>Location 5 Hours</li>
-<li>Normal Light</li>
-<li>Car For Video</li>
-</ul>
-</div>
 
 </div>
 
