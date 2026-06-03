@@ -52,20 +52,35 @@ const songProjects = [
   },
 ]
 
-const offers = [
-  {
-    title: 'Pre-wedding Shoot Offer',
-    tag: 'Premium Couple Package',
-    text: 'Cinematic photos, reels, locations and storytelling frames for couples.',
-    reason: 'Pre-wedding Shoot Offer',
-  },
-  {
-    title: 'Wedding / Event Coverage',
-    tag: 'Photography + Videography',
-    text: 'Professional event coverage for wedding, birthday, corporate and sports events.',
-    reason: 'Wedding or Event Coverage Offer',
-  },
-]
+<div className="offer-card">
+  <span>PREMIUM COUPLE PACKAGE</span>
+  <h3>Pre-wedding Shoot Offer</h3>
+  <p>
+    Cinematic photos, reels, locations and storytelling frames for couples.
+  </p>
+
+  <a
+    href="https://wa.me/917053120268?text=Hello RL MEDIA, I am interested in PRE WEDDING OFFER."
+    target="_blank"
+  >
+    Get Details on WhatsApp →
+  </a>
+</div>
+
+<div className="offer-card">
+  <span>MUSIC VIDEO PACKAGE</span>
+  <h3>Song Shoot Offer</h3>
+  <p>
+    Professional song direction, 4K video shoot, thumbnails, poster photos and creative cinematography.
+  </p>
+
+  <a
+    href="https://wa.me/917053120268?text=Hello RL MEDIA, I am interested in SONG SHOOT OFFER."
+    target="_blank"
+  >
+    Get Details on WhatsApp →
+  </a>
+</div>
 
 function App() {
   return (
