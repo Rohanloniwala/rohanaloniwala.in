@@ -28,3 +28,62 @@ main{overflow:hidden}
 .contact{width:min(1060px,92%);margin:50px auto 80px;background:radial-gradient(circle at top,rgba(214,165,55,.16),transparent 35%),#111;border:1px solid rgba(214,165,55,.32);border-radius:34px;padding:52px;text-align:center}.contact-logo{width:150px;opacity:.95;margin-bottom:10px}.contact-grid{display:grid;grid-template-columns:1fr 1fr 1.2fr;gap:18px;margin-top:26px}.contact-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:22px;padding:24px}.contact-card h3{color:#d6a537;margin-bottom:9px}.qr-card img{width:150px;background:white;padding:8px;border-radius:14px;margin-bottom:12px}
 footer{border-top:1px solid rgba(255,255,255,.08);padding:34px 6%;display:flex;justify-content:space-between;align-items:center;gap:18px;color:#bbb}.footer-brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:24px}.footer-brand img{width:64px}.footer-links{display:flex;gap:16px}.footer-links a{color:#d6a537;font-weight:800}
 @media(max-width:960px){.nav-links,.nav-btn{display:none}.hero-grid,.about,.service-grid,.song-grid,.event-grid,.certificate-section,.contact-grid,.quick-stats{grid-template-columns:1fr}.hero-grid{margin-top:46px}.hero-watermark{width:85vw;opacity:.08;right:-20%;top:12%}.song-card img,.event-grid img{height:auto}.contact{padding:34px 18px}footer{flex-direction:column;text-align:center}.youtube-strip{align-items:flex-start;flex-direction:column}}
+.pricing-section{
+padding:100px 20px;
+background:#000;
+color:#fff;
+text-align:center;
+}
+
+.pricing-columns{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+margin-top:40px;
+}
+
+.offer-group{
+padding:30px;
+border-radius:20px;
+background:rgba(255,255,255,.05);
+border:1px solid rgba(212,175,55,.3);
+backdrop-filter:blur(10px);
+}
+
+.prewedding{
+background:
+linear-gradient(rgba(0,0,0,.82),rgba(0,0,0,.82)),
+url('./assets/prewedding-banner.jpg');
+background-size:cover;
+background-position:center;
+}
+
+.offer-card{
+background:#111;
+padding:20px;
+margin-top:20px;
+border-radius:15px;
+border:1px solid #d4af37;
+box-shadow:0 0 20px rgba(212,175,55,.15);
+}
+
+.offer-card h2{
+color:#d4af37;
+font-size:32px;
+}
+
+.offer-card del{
+color:#888;
+}
+
+.offer-card ul{
+list-style:none;
+padding:0;
+line-height:2;
+}
+
+@media(max-width:900px){
+.pricing-columns{
+grid-template-columns:1fr;
+}
+}
