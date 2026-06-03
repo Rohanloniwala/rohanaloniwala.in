@@ -52,21 +52,6 @@ const songProjects = [
   },
 ]
 
-const offers = [
-  {
-    title: 'Pre-wedding Shoot Offer',
-    tag: 'Premium Couple Package',
-    text: 'Cinematic photos, reels, locations and storytelling frames for couples.',
-    reason: 'Pre-wedding Shoot Offer',
-  },
-  {
-    title: 'Wedding / Event Coverage',
-    tag: 'Photography + Videography',
-    text: 'Professional event coverage for wedding, birthday, corporate and sports events.',
-    reason: 'Wedding or Event Coverage Offer',
-  },
-]
-
 function App() {
   return (
     <main>
@@ -96,25 +81,57 @@ function App() {
             WhatsApp Us
           </a>
         </nav>
+<section className="top-offers" id="offers">
 
-        <section className="top-offers" id="offers">
-          <div className="offer-head">
-            <p className="section-tag">Limited Offer</p>
-            <h2>Book Your Shoot Today</h2>
-            <p>Offer pe click karte hi WhatsApp message me selected offer ka naam automatically aa jayega.</p>
-          </div>
-          <div className="offer-grid">
-            {offers.map((offer) => (
-              <a className="offer-card" href={wa(offer.reason, `I am interested in ${offer.title}. `)} target="_blank" rel="noreferrer" key={offer.title}>
-                <span>{offer.tag}</span>
-                <h3>{offer.title}</h3>
-                <p>{offer.text}</p>
-                <strong>Get Details on WhatsApp →</strong>
-              </a>
-            ))}
-          </div>
-        </section>
+  <h2 style={{textAlign:'center',marginBottom:'30px'}}>
+    PRE WEDDING PACKAGES
+  </h2>
 
+  <div className="offer-grid">
+    <div className="offer-card">
+      <h3>Offer 1</h3>
+      <h2>₹19,999</h2>
+      <p>3-4 Min Video • 50 Edited Photos • Delhi Shoot</p>
+    </div>
+
+    <div className="offer-card">
+      <h3>Offer 2</h3>
+      <h2>₹24,999</h2>
+      <p>2 Reels • 50 Edited Photos • Delhi Location</p>
+    </div>
+
+    <div className="offer-card">
+      <h3>Offer 3</h3>
+      <h2>₹34,999</h2>
+      <p>Rishikesh / Delhi • Makeup Artist</p>
+    </div>
+  </div>
+
+  <h2 style={{textAlign:'center',margin:'50px 0 30px'}}>
+    SONG SHOOT PACKAGES
+  </h2>
+
+  <div className="offer-grid">
+    <div className="offer-card">
+      <h3>Offer 1</h3>
+      <h2>₹6,999</h2>
+      <p>Song Direction • 4K Video</p>
+    </div>
+
+    <div className="offer-card">
+      <h3>Offer 2</h3>
+      <h2>₹14,999</h2>
+      <p>4K Video • Car • Delhi Location</p>
+    </div>
+
+    <div className="offer-card">
+      <h3>Offer 3</h3>
+      <h2>₹19,999</h2>
+      <p>Sony FX3 • 4K Video • Car</p>
+    </div>
+  </div>
+
+</section>       
         <div className="hero-grid">
           <section className="hero-left">
             <p className="tag">Premium Photography • Videography • Editing</p>
