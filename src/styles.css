@@ -84,3 +84,44 @@ footer{border-top:1px solid rgba(255,255,255,.08);padding:34px 6%;display:flex;j
     margin-bottom:20px;
   }
 }
+.pricing-table-section{
+  padding:80px 5%;
+  background:#0a0a0a;
+}
+
+.offer-row{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+  margin-top:30px;
+}
+
+.offer-card{
+  background:#fff;
+  color:#000;
+  border-radius:20px;
+  padding:30px;
+  text-align:center;
+}
+
+.offer-card h2{
+  font-size:42px;
+  margin:10px 0;
+}
+
+.book-btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:12px 25px;
+  background:#25D366;
+  color:white;
+  text-decoration:none;
+  border-radius:8px;
+  font-weight:bold;
+}
+
+@media(max-width:900px){
+  .offer-row{
+    grid-template-columns:1fr;
+  }
+}
