@@ -308,3 +308,13 @@ margin-bottom:20px;
   width:100%;
   max-width:550px;
 }
+.contact-grid{
+  display:grid;
+  place-items:center;
+  margin-top:30px;
+}
+
+.contact-card{
+  width:min(650px,90%);
+  text-align:center;
+}
