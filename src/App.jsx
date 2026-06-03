@@ -149,8 +149,6 @@ BOOK NOW
 </tbody>
 </table>
 
-</section>
-
 </section>       
         <div className="hero-grid">
           <section className="hero-left">
