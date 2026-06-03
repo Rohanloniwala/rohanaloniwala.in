@@ -83,73 +83,73 @@ function App() {
         </nav>
 <section className="pricing-table-section" id="offers">
 
-<h2>PRE WEDDING OFFER</h2>
+<h2>PRE WEDDING OFFERS</h2>
 
-<table className="pricing-table">
-<thead>
-<tr>
-<th></th>
-<th>OFFER 1</th>
-<th>OFFER 2</th>
-<th>OFFER 3</th>
-</tr>
-</thead>
+<div className="offer-row">
 
-<tbody>
-<tr>
-<td>PRICE</td>
-<td>₹29,999</td>
-<td>₹39,999</td>
-<td>₹44,999</td>
-</tr>
+<div className="offer-card">
+<h3>Offer 1</h3>
+<h2>₹19,999</h2>
+<p>3-4 Min Video</p>
+<p>50 Edited Photos</p>
+<p>100 Raw Photos</p>
+<a className="book-btn" href="https://wa.me/917053120268?text=I am interested in PRE WEDDING OFFER 1">BOOK NOW</a>
+</div>
 
-<tr>
-<td>DISCOUNTED PRICE</td>
-<td>₹19,999</td>
-<td>₹24,999</td>
-<td>₹34,999</td>
-</tr>
+<div className="offer-card">
+<h3>Offer 2</h3>
+<h2>₹24,999</h2>
+<p>3-4 Min Video</p>
+<p>50 Edited Photos</p>
+<p>2 Reels</p>
+<a className="book-btn" href="https://wa.me/917053120268?text=I am interested in PRE WEDDING OFFER 2">BOOK NOW</a>
+</div>
 
-<tr>
-<td>VIDEO</td>
-<td>3-4 MIN VIDEO</td>
-<td>3-4 MIN VIDEO</td>
-<td>3-4 MIN VIDEO</td>
-</tr>
+<div className="offer-card">
+<h3>Offer 3</h3>
+<h2>₹34,999</h2>
+<p>3-4 Min Video</p>
+<p>100 Edited Photos</p>
+<p>Makeup Artist</p>
+<a className="book-btn" href="https://wa.me/917053120268?text=I am interested in PRE WEDDING OFFER 3">BOOK NOW</a>
+</div>
 
-<tr>
-<td>EDITED PHOTO</td>
-<td>50</td>
-<td>50</td>
-<td>100</td>
-</tr>
+</div>
 
-<tr>
-<td></td>
+<h2 style={{marginTop:'60px'}}>SONG SHOOT OFFERS</h2>
 
-<td>
-<a href="https://wa.me/917053120268?text=I am interested in PRE WEDDING OFFER 1">
-BOOK NOW
-</a>
-</td>
+<div className="offer-row">
 
-<td>
-<a href="https://wa.me/917053120268?text=I am interested in PRE WEDDING OFFER 2">
-BOOK NOW
-</a>
-</td>
+<div className="offer-card">
+<h3>Offer 1</h3>
+<h2>₹6,999</h2>
+<p>Song Direction</p>
+<p>4K Video</p>
+<p>Poster Photos</p>
+<a className="book-btn" href="https://wa.me/917053120268?text=I am interested in SONG SHOOT OFFER 1">BOOK NOW</a>
+</div>
 
-<td>
-<a href="https://wa.me/917053120268?text=I am interested in PRE WEDDING OFFER 3">
-BOOK NOW
-</a>
-</td>
+<div className="offer-card">
+<h3>Offer 2</h3>
+<h2>₹14,999</h2>
+<p>4K Video</p>
+<p>Delhi Location</p>
+<p>Car For Video</p>
+<a className="book-btn" href="https://wa.me/917053120268?text=I am interested in SONG SHOOT OFFER 2">BOOK NOW</a>
+</div>
 
-</tr>
-</tbody>
-</table>
+<div className="offer-card">
+<h3>Offer 3</h3>
+<h2>₹19,999</h2>
+<p>Sony FX3</p>
+<p>4K Video</p>
+<p>Car For Video</p>
+<a className="book-btn" href="https://wa.me/917053120268?text=I am interested in SONG SHOOT OFFER 3">BOOK NOW</a>
+</div>
 
-</section>       
+</div>
+
+</section>
         <div className="hero-grid">
           <section className="hero-left">
             <p className="tag">Premium Photography • Videography • Editing</p>
