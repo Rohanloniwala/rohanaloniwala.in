@@ -384,27 +384,15 @@ BOOK NOW
         <img className="contact-logo" src={logo} alt="RL MEDIA logo" />
         <p className="section-tag">Contact</p>
         <h2>Book RL MEDIA for your next shoot</h2>
-        <p className="contact-note">For direct enquiry use WhatsApp scanner or contact details below.</p>
+        <p className="contact-note">
+For bookings and collaborations, contact us by email.
+</p>
 
-        <div className="contact-grid">
-          <div className="contact-card">
-            <h3>Email</h3>
-            <a href={`mailto:${email}`}>{email}</a>
-          </div>
-
-          <div className="contact-card">
-            <h3>Contact Number</h3>
-            <a href={`tel:+91${contactNumber}`}>+91 {contactNumber}</a>
-          </div>
-
-          <div className="contact-card qr-card">
-            <img src={whatsappQr} alt="WhatsApp scanner for 7053120268" />
-            <h3>WhatsApp Scanner</h3>
-            <p>Scan for WhatsApp enquiry:</p>
-            <a href={wa('booking enquiry from website scanner')} target="_blank" rel="noreferrer">Message on WhatsApp</a>
-          </div>
-        </div>
-      </section>
+        <div className="contact-card">
+  <h3>Email</h3>
+  <a href={`mailto:${email}`}>{email}</a>
+</div>
+               </section>
 
       <footer>
         <div className="footer-brand">
