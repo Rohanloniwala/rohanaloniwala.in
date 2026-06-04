@@ -13,7 +13,7 @@ const contactNumber = '8076869370'
 const email = 'photography.rlmedia@gmail.com'
 const instagramLink = 'https://www.instagram.com/rohan_loniwala/'
 const youtubeChannel = 'https://youtube.com/@pradhanrecords?si=QxtWKT9GKcvTyUfA'
-
+const googleBusinessLink = 'https://share.google/pLbYrhqU4z7CKqvZe'
 const wa = (service, extra = '') =>
   `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
     `Hello RL MEDIA, I am contacting you for ${service}. ${extra}Please share details, package and available dates.`
