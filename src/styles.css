@@ -119,17 +119,19 @@ background-repeat:no-repeat;
 .offer-card h2{
   text-align:center;
   color:#25d366;
-  font-size:42px;
+  font-size:38px;
   margin:8px 0 18px;
 }
 
 .offer-card p{
-  border-top:1px solid rgba(255,255,255,.12);
-  padding:10px 0;
-  color:#eee;
-  font-size:16px;
+  margin:8px 0;
+  padding:8px 0;
+  font-size:18px;
 }
-
+.offer-card{
+  padding:20px;
+  min-height:auto;
+}
 .book-btn{
   display:block;
   margin-top:18px;
@@ -229,7 +231,9 @@ footer p{text-align:right}
 @media(max-width:960px){
   .nav-links,.nav-btn{display:none}
   .hero-grid,.about,.service-grid,.song-grid,.event-grid,.certificate-section,.contact-grid,.quick-stats{grid-template-columns:1fr}
-  .offer-row{grid-template-columns:1fr}
+ .offer-row{
+  align-items:flex-start;
+}
   .hero-grid{margin-top:46px}
   .song-card img,.event-grid img{height:auto}
   .contact{padding:34px 18px}
@@ -239,7 +243,7 @@ footer p{text-align:right}
 }
 .offer-main-title{
 text-align:center;
-font-size:58px;
+font-size:42px;
 color:#d6a537;
 margin-bottom:50px;
 }
