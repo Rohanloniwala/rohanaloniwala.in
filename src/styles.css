@@ -147,3 +147,67 @@ color:#fff;
     font-size:42px;
   }
 }
+.offer-page{
+  min-height:100vh;
+  padding:80px 5%;
+
+  background:
+  linear-gradient(
+    rgba(35,0,20,.78),
+    rgba(35,0,20,.78)
+  ),
+  url('./assets/pre-wedding-poster.png');
+
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+}
+
+.offer-page .container{
+  max-width:1300px;
+  margin:auto;
+}
+
+.offer-page h1{
+  text-align:center;
+  font-size:60px;
+  margin-bottom:50px;
+  color:white;
+}
+
+.offers-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:30px;
+}
+
+.offers-grid .offer-card{
+  background:rgba(20,0,15,.85);
+  border:2px solid #ff4d94;
+  border-radius:25px;
+  padding:30px;
+  backdrop-filter:blur(12px);
+}
+
+.offers-grid .offer-card h2{
+  color:#ff7eb6;
+  font-size:55px;
+  margin:15px 0;
+}
+
+.offers-grid .book-btn{
+  display:block;
+  text-align:center;
+  margin-top:20px;
+  background:linear-gradient(90deg,#ff4d94,#ff7eb6);
+  color:white;
+  padding:15px;
+  border-radius:12px;
+  font-weight:900;
+}
+
+@media(max-width:1000px){
+  .offers-grid{
+    grid-template-columns:1fr;
+  }
+}
