@@ -28,3 +28,109 @@ main{overflow:hidden}
 .contact{width:min(1060px,92%);margin:50px auto 80px;background:radial-gradient(circle at top,rgba(214,165,55,.16),transparent 35%),#111;border:1px solid rgba(214,165,55,.32);border-radius:34px;padding:52px;text-align:center}.contact-logo{width:150px;opacity:.95;margin-bottom:10px}.contact-grid{display:grid;grid-template-columns:1fr 1fr 1.2fr;gap:18px;margin-top:26px}.contact-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:22px;padding:24px}.contact-card h3{color:#d6a537;margin-bottom:9px}.qr-card img{width:150px;background:white;padding:8px;border-radius:14px;margin-bottom:12px}
 footer{border-top:1px solid rgba(255,255,255,.08);padding:34px 6%;display:flex;justify-content:space-between;align-items:center;gap:18px;color:#bbb}.footer-brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:24px}.footer-brand img{width:64px}.footer-links{display:flex;gap:16px}.footer-links a{color:#d6a537;font-weight:800}
 @media(max-width:960px){.nav-links,.nav-btn{display:none}.hero-grid,.about,.service-grid,.song-grid,.event-grid,.certificate-section,.contact-grid,.quick-stats{grid-template-columns:1fr}.hero-grid{margin-top:46px}.hero-watermark{width:85vw;opacity:.08;right:-20%;top:12%}.song-card img,.event-grid img{height:auto}.contact{padding:34px 18px}footer{flex-direction:column;text-align:center}.youtube-strip{align-items:flex-start;flex-direction:column}}
+/* OFFERS SECTION */
+
+.offer-main-title{
+  text-align:center;
+  color:#fff;
+  margin-bottom:50px;
+}
+
+.group-title{
+  color:#fff;
+  font-size:42px;
+  margin-bottom:25px;
+}
+
+.offer-group{
+  margin-bottom:70px;
+}
+
+.offer-row{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+}
+
+.offer-card{
+  background:#0f0f0f;
+  border:2px solid #d6a537;
+  border-radius:25px;
+  padding:25px;
+  position:relative;
+  transition:.3s;
+}
+
+.offer-card:hover{
+  transform:translateY(-8px);
+}
+
+.offer-badge{
+  background:#d6a537;
+  color:#000;
+  padding:12px;
+  border-radius:12px;
+  font-weight:900;
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.price-box{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.old-price{
+  color:#ff6b6b;
+  text-decoration:line-through;
+  display:block;
+  font-size:28px;
+}
+
+.price-box h2{
+  color:#25d366;
+  font-size:55px;
+}
+
+.offer-card p{
+  margin:12px 0;
+  color:#fff;
+  font-size:18px;
+}
+
+.book-btn{
+  display:block;
+  text-align:center;
+  background:#25d366;
+  color:#000;
+  padding:15px;
+  border-radius:12px;
+  font-weight:900;
+  margin-top:20px;
+}
+
+.ribbon{
+  position:absolute;
+  top:15px;
+  right:-35px;
+  background:#d6a537;
+  color:#000;
+  padding:10px 45px;
+  transform:rotate(45deg);
+  font-weight:900;
+}
+
+@media(max-width:900px){
+
+  .offer-row{
+    grid-template-columns:1fr;
+  }
+
+  .group-title{
+    font-size:30px;
+  }
+
+  .price-box h2{
+    font-size:42px;
+  }
+}
