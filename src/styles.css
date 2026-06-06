@@ -232,3 +232,39 @@ color:#fff;
     grid-template-columns:1fr;
   }
 }
+.offer-contact{
+  text-align:center;
+  margin-top:70px;
+  padding:40px;
+  background:rgba(20,0,15,.85);
+  border:2px solid #ff4d94;
+  border-radius:25px;
+}
+
+.offer-contact h2{
+  margin-bottom:25px;
+  color:#fff;
+}
+
+.contact-buttons{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.whatsapp-btn{
+  background:#25d366;
+  color:white;
+  padding:15px 30px;
+  border-radius:12px;
+  font-weight:900;
+}
+
+.email-btn{
+  background:#ff4d94;
+  color:white;
+  padding:15px 30px;
+  border-radius:12px;
+  font-weight:900;
+}
