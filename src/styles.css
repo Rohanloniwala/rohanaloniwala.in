@@ -309,3 +309,73 @@ color:#fff;
   background:#ff4d94;
   color:#fff;
 }
+.offer-contact{
+  margin-top:60px;
+  text-align:center;
+  padding:40px;
+  background:rgba(20,0,15,.85);
+  border:2px solid #ff4d94;
+  border-radius:25px;
+  backdrop-filter:blur(12px);
+}
+
+.offer-contact h2{
+  font-size:42px;
+  color:white;
+  margin-bottom:10px;
+}
+
+.contact-text{
+  color:#ddd;
+  margin-bottom:25px;
+  font-size:18px;
+}
+
+.contact-buttons{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.whatsapp-btn,
+.email-btn{
+  padding:16px 30px;
+  border-radius:12px;
+  font-weight:900;
+  min-width:260px;
+  text-align:center;
+}
+
+.whatsapp-btn{
+  background:#25d366;
+  color:white;
+}
+
+.email-btn{
+  background:#ff4d94;
+  color:white;
+}
+
+@media(max-width:768px){
+
+  .offer-contact{
+    padding:25px;
+  }
+
+  .offer-contact h2{
+    font-size:32px;
+  }
+
+  .contact-buttons{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .whatsapp-btn,
+  .email-btn{
+    width:100%;
+    max-width:350px;
+  }
+
+}
