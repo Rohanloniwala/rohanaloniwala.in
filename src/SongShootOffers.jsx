@@ -113,7 +113,7 @@ return ( <section className="offer-page-song"> <div className="container">
       <h2>📞 Contact RL MEDIA</h2>
 
       <p className="contact-text">
-        Ready to shoot your next music video?
+        Ready to shoot your next music video? Contact us now.
       </p>
 
       <div className="contact-buttons">
@@ -124,14 +124,23 @@ return ( <section className="offer-page-song"> <div className="container">
           rel="noreferrer"
           className="whatsapp-btn"
         >
-          WhatsApp Now
+          📱 WhatsApp
         </a>
 
         <a
           href="mailto:photography.rlmedia@gmail.com"
           className="email-btn"
         >
-          photography.rlmedia@gmail.com
+          📧 Email Us
+        </a>
+
+        <a
+          href="https://www.instagram.com/rohan_loniwala/"
+          target="_blank"
+          rel="noreferrer"
+          className="instagram-btn"
+        >
+          📸 Instagram
         </a>
 
       </div>
