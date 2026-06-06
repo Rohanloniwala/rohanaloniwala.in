@@ -139,7 +139,14 @@ return ( <section className="offer-page-song"> <div className="container">
           rel="noreferrer"
           className="instagram-btn"
         >
-          📸 Instagram
+          <a
+  href="https://www.instagram.com/rohan_loniwala/"
+  target="_blank"
+  rel="noreferrer"
+  className="instagram-btn"
+>
+  📸 Instagram
+</a>
         </a>
 
       </div>
