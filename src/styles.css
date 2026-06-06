@@ -268,3 +268,44 @@ color:#fff;
   border-radius:12px;
   font-weight:900;
 }
+.offer-contact{
+  margin-top:60px;
+  text-align:center;
+  background:rgba(20,0,15,.85);
+  border:2px solid #ff4d94;
+  border-radius:25px;
+  padding:40px;
+  backdrop-filter:blur(10px);
+}
+
+.offer-contact h2{
+  font-size:42px;
+  margin-bottom:25px;
+  color:#fff;
+}
+
+.contact-buttons{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.whatsapp-btn,
+.email-btn{
+  display:inline-block;
+  padding:15px 30px;
+  border-radius:12px;
+  font-weight:700;
+  min-width:250px;
+}
+
+.whatsapp-btn{
+  background:#25d366;
+  color:#fff;
+}
+
+.email-btn{
+  background:#ff4d94;
+  color:#fff;
+}
