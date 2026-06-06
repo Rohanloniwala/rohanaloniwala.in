@@ -3,7 +3,6 @@ import React from "react";
 export default function SongShootOffers() {
 return ( <section className="offer-page-song"> <div className="container">
 
-```
     <h1>🎵 RL MEDIA - Song Shoot Packages</h1>
 
     <div className="offers-grid">
@@ -149,7 +148,5 @@ return ( <section className="offer-page-song"> <div className="container">
 
   </div>
 </section>
-```
-
 );
 }
