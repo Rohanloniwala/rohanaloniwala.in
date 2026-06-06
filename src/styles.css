@@ -211,3 +211,24 @@ color:#fff;
     grid-template-columns:1fr;
   }
 }
+.offers-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:30px;
+  align-items:stretch;
+}
+
+.offers-grid .offer-card{
+  background:rgba(20,0,15,.85);
+  border:2px solid #ff4d94;
+  border-radius:25px;
+  padding:30px;
+  backdrop-filter:blur(12px);
+  min-height:650px;
+}
+
+@media(max-width:1000px){
+  .offers-grid{
+    grid-template-columns:1fr;
+  }
+}
