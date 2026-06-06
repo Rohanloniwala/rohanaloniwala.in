@@ -54,7 +54,7 @@ return ( <section className="offer-page-song"> <div className="container">
         <p>✅ Basic Lighting Setup</p>
         <p>✅ 4 Hours Shoot</p>
         <p>✅ YouTube Ready Delivery</p>
-        <p>✅ Delivery Within 5 Days</p>
+        <p>✅ Delivery Within 7 Days</p>
 
         <a
           href="https://wa.me/918076869370?text=I am interested in SONG SHOOT OFFER 2"
@@ -90,7 +90,7 @@ return ( <section className="offer-page-song"> <div className="container">
         <p>✅ Cinematic Camera Movements</p>
         <p>✅ BTS Clips Included</p>
         <p>✅ YouTube Ready Delivery</p>
-        <p>✅ Delivery Within 3 Days</p>
+        <p>✅ Delivery Within 7 Days</p>
 
         <a
           href="https://wa.me/918076869370?text=I am interested in SONG SHOOT OFFER 3"
