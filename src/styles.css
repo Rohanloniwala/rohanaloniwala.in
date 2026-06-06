@@ -227,7 +227,51 @@ footer{border-top:1px solid rgba(255,255,255,.08);padding:34px 6%;display:flex;j
 .footer-links{display:flex;gap:16px}
 .footer-links a{color:#d6a537;font-weight:800}
 footer p{text-align:right}
+/* MOBILE FIX - OFFERS */
+@media (max-width: 768px) {
+  .offers-grid,
+  .pricing-grid,
+  .offer-cards {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 22px !important;
+    align-items: center !important;
+  }
 
+  .offer-card,
+  .pricing-card {
+    width: 92% !important;
+    max-width: 360px !important;
+    min-width: 0 !important;
+    padding: 24px 18px !important;
+    overflow: visible !important;
+  }
+
+  .offer-card h3,
+  .pricing-card h3 {
+    font-size: 22px !important;
+    white-space: normal !important;
+  }
+
+  .offer-price,
+  .price {
+    font-size: 38px !important;
+    white-space: normal !important;
+  }
+
+  .offer-card li,
+  .pricing-card li {
+    font-size: 18px !important;
+    line-height: 1.4 !important;
+    white-space: normal !important;
+    word-break: normal !important;
+  }
+
+  .best-seller,
+  .ribbon {
+    font-size: 12px !important;
+  }
+}
 @media(max-width:960px){
   .nav-links,.nav-btn{display:none}
   .hero-grid,.about,.service-grid,.song-grid,.event-grid,.certificate-section,.contact-grid,.quick-stats{grid-template-columns:1fr}
