@@ -65,7 +65,9 @@ footer{border-top:1px solid rgba(255,255,255,.08);padding:34px 6%;display:flex;j
 }
 
 .offer-card{
-  background:#0f0f0f;
+  background:rgba(30,0,15,.88);
+  backdrop-filter:blur(10px);
+}
  border:2px solid #ff4d94;
   border-radius:25px;
   padding:25px;
@@ -111,9 +113,8 @@ color:#ff7eb6;
 }
 
 .book-btn{
-  display:block;
-  text-align:center;
-background:#ff4d94;
+background:linear-gradient(90deg,#ff4d94,#ff6fb5);
+}
 color:#fff;
   padding:15px;
   border-radius:12px;
