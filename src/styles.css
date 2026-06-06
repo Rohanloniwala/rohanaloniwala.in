@@ -238,7 +238,26 @@ footer p{text-align:right}
     align-items: center !important;
   }
 
-  
+  .offer-card{
+  width:90% !important;
+  max-width:380px !important;
+  min-width:auto !important;
+  margin:auto !important;
+}
+
+.offer-card .whatsapp-btn{
+  width:100% !important;
+  margin-top:20px !important;
+  position:static !important;
+}
+
+.offer-card ul{
+  text-align:left !important;
+}
+
+.offer-card li{
+  line-height:1.8 !important;
+}
 
   .offer-card h3,
   .pricing-card h3 {
