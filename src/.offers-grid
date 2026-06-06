@@ -227,22 +227,33 @@ footer{border-top:1px solid rgba(255,255,255,.08);padding:34px 6%;display:flex;j
 .footer-links{display:flex;gap:16px}
 .footer-links a{color:#d6a537;font-weight:800}
 footer p{text-align:right}
-/* MOBILE FIX - OFFERS */
-@media (max-width: 768px) {
-  .offers-grid,
-  .pricing-grid,
-  .offer-cards {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 22px !important;
-    align-items: center !important;
+/* OFFERS RESPONSIVE FIX */
+
+.offers-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+}
+
+@media (max-width:768px){
+
+  .offers-grid{
+    display:grid !important;
+    grid-template-columns:1fr !important;
+    gap:20px !important;
+    padding:0 12px !important;
   }
 
   .offer-card{
-  width:90% !important;
-  max-width:380px !important;
-  min-width:auto !important;
-  margin:auto !important;
+    width:100% !important;
+    max-width:100% !important;
+    margin:0 auto !important;
+  }
+
+  .book-btn{
+    width:100%;
+    text-align:center;
+  }
 }
 
 .offer-card .whatsapp-btn{
