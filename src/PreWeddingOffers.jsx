@@ -93,7 +93,31 @@ export default function PreWeddingOffers() {
           </div>
 
         </div>
+<div className="offer-contact">
 
+  <h2>📞 Contact RL MEDIA</h2>
+
+  <div className="contact-buttons">
+
+    <a
+      href="https://wa.me/918076869370"
+      target="_blank"
+      rel="noreferrer"
+      className="whatsapp-btn"
+    >
+      WhatsApp Now
+    </a>
+
+    <a
+      href="mailto:photography.rlmedia@gmail.com"
+      className="email-btn"
+    >
+      photography.rlmedia@gmail.com
+    </a>
+
+  </div>
+
+</div>
       </div>
     </section>
   );
