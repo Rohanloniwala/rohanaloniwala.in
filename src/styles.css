@@ -390,3 +390,162 @@ color:#fff;
   background-size:cover;
   background-position:center;
 }
+/* SONG SHOOT PAGE */
+
+.offer-page-song{
+  min-height:100vh;
+  padding:80px 5%;
+
+  background:
+  linear-gradient(
+    rgba(0,0,0,.82),
+    rgba(0,0,0,.82)
+  ),
+  url('./assets/happy-birthday-poster.jpg');
+
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+}
+
+.offer-page-song h1{
+  text-align:center;
+  font-size:60px;
+  margin-bottom:50px;
+  color:#fff;
+}
+
+.offer-page-song .offer-card{
+  background:rgba(10,10,10,.90);
+  backdrop-filter:blur(12px);
+
+  border:2px solid #d4af37;
+  border-radius:25px;
+
+  padding:30px;
+
+  transition:.3s;
+}
+
+.offer-page-song .offer-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 0 30px rgba(212,175,55,.25);
+}
+
+.offer-page-song .price-box h2{
+  color:#d4af37;
+  font-size:58px;
+}
+
+.offer-page-song .old-price{
+  color:#999;
+  text-decoration:line-through;
+  font-size:28px;
+}
+
+.offer-page-song .book-btn{
+  display:block;
+  text-align:center;
+
+  background:linear-gradient(
+    90deg,
+    #d4af37,
+    #f7d774
+  );
+
+  color:#000;
+  font-weight:900;
+
+  padding:16px;
+  border-radius:12px;
+
+  margin-top:20px;
+}
+
+.offer-page-song .book-btn:hover{
+  transform:scale(1.03);
+}
+
+.best-seller{
+  display:inline-block;
+
+  background:#d4af37;
+  color:#000;
+
+  padding:8px 16px;
+  border-radius:30px;
+
+  font-weight:900;
+  margin-bottom:15px;
+}
+
+/* CONTACT */
+
+.offer-contact{
+  margin-top:70px;
+
+  background:rgba(0,0,0,.80);
+
+  border:2px solid #d4af37;
+
+  border-radius:30px;
+
+  padding:50px;
+
+  text-align:center;
+}
+
+.offer-contact h2{
+  color:#fff;
+}
+
+.contact-text{
+  color:#ddd;
+  margin-bottom:25px;
+}
+
+.contact-buttons{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.whatsapp-btn{
+  background:#25d366;
+  color:white;
+
+  padding:16px 28px;
+
+  border-radius:12px;
+
+  font-weight:800;
+}
+
+.email-btn{
+  background:#d4af37;
+  color:black;
+
+  padding:16px 28px;
+
+  border-radius:12px;
+
+  font-weight:800;
+}
+
+.instagram-btn{
+  background:linear-gradient(
+    45deg,
+    #833ab4,
+    #fd1d1d,
+    #fcb045
+  );
+
+  color:white;
+
+  padding:16px 28px;
+
+  border-radius:12px;
+
+  font-weight:800;
+}
