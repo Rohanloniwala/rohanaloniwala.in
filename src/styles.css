@@ -238,14 +238,7 @@ footer p{text-align:right}
     align-items: center !important;
   }
 
-  .offer-card,
-  .pricing-card {
-    width: 92% !important;
-    max-width: 360px !important;
-    min-width: 0 !important;
-    padding: 24px 18px !important;
-    overflow: visible !important;
-  }
+  
 
   .offer-card h3,
   .pricing-card h3 {
@@ -369,4 +362,30 @@ margin-bottom:20px;
     width:100%;
     margin:auto;
     text-align:center;
+}
+/* MOBILE OFFERS FIX */
+@media (max-width: 768px) {
+
+  .offers-grid {
+    display: flex !important;
+    overflow-x: auto !important;
+    gap: 15px !important;
+    padding: 10px !important;
+    scroll-snap-type: x mandatory;
+  }
+
+  .offer-card {
+    flex: 0 0 280px !important;
+    width: 280px !important;
+    min-width: 280px !important;
+    scroll-snap-align: center;
+  }
+
+  .offer-price {
+    font-size: 42px !important;
+  }
+
+  .offer-card ul li {
+    font-size: 18px !important;
+  }
 }
