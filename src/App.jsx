@@ -83,185 +83,44 @@ function App() {
 <section className="pricing-table-section" id="offers">
 
 <h2 className="offer-main-title">OUR SPECIAL OFFERS</h2>
-
-{/* PRE WEDDING */}
-
-<div className="offer-group">
-<h3 className="group-title">💛 PRE WEDDING OFFERS</h3>
-
 <div className="offer-row">
 
-<div className="offer-card">
-<div className="offer-badge">OFFER 1</div>
+  <div className="offer-card">
+    <div className="offer-badge">PRE WEDDING</div>
 
-<div className="price-box">
-<span className="old-price">₹29,999</span>
-<h2>₹19,999</h2>
-</div>
+    <div className="price-box">
+      <h2>Starting ₹19,999</h2>
+    </div>
 
-<p>✔ 3-4 Min Video</p>
-<p>✔ Shooting in Delhi Includes</p>
-<p>✔ 50 Edited Photos</p>
-<p>✔ 100 Raw Photos</p>
-<p>✔ Location in Delhi</p>
+    <p>✔ 3 Premium Packages Available</p>
+    <p>✔ Cinematic Videos</p>
+    <p>✔ Edited Photos</p>
+    <p>✔ Reels Included</p>
+    <p>✔ Makeup Artist Available</p>
 
-<a
-className="book-btn"
-href={wa('PRE WEDDING OFFER 1')}
-target="_blank"
-rel="noreferrer"
->
-BOOK NOW
-</a>
-</div>
+    <a className="book-btn" href="/prewedding">
+      VIEW ALL PACKAGES
+    </a>
+  </div>
 
-<div className="offer-card">
-<div className="offer-badge">OFFER 2</div>
+  <div className="offer-card">
+    <div className="offer-badge">SONG SHOOT</div>
 
-<div className="price-box">
-<span className="old-price">₹39,999</span>
-<h2>₹24,999</h2>
-</div>
+    <div className="price-box">
+      <h2>Starting ₹6,999</h2>
+    </div>
 
-<p>✔ 3-4 Min Video</p>
-<p>✔ Shooting in Delhi Includes</p>
-<p>✔ 50 Edited Photos</p>
-<p>✔ 100 Raw Photos</p>
-<p>✔ Location in Delhi</p>
-<p>✔ 2 Reels For Instagram & YouTube Shorts</p>
+    <p>✔ 3 Song Shoot Packages</p>
+    <p>✔ 4K Production</p>
+    <p>✔ Thumbnail Design</p>
+    <p>✔ Poster Photos</p>
+    <p>✔ Sony FX3 Available</p>
 
-<a
-className="book-btn"
-href={wa('PRE WEDDING OFFER 2')}
-target="_blank"
-rel="noreferrer"
->
-BOOK NOW
-</a>
-</div>
+    <a className="book-btn" href="/songshoot">
+      VIEW ALL PACKAGES
+    </a>
+  </div>
 
-<div className="offer-card bestseller">
-<div className="ribbon">BEST SELLER</div>
-
-<div className="offer-badge">OFFER 3</div>
-
-<div className="price-box">
-<span className="old-price">₹44,999</span>
-<h2>₹34,999</h2>
-</div>
-
-<p>✔ 3-4 Min Video</p>
-<p>✔ Delhi / Rishikesh Shoot</p>
-<p>✔ 100 Edited Photos</p>
-<p>✔ 200 Raw Photos</p>
-<p>✔ Delhi OR Rishikesh (Choose One)</p>
-<p>✔ 2 Instagram Reels</p>
-<p>✔ 2 Wedding Ceremony Reels</p>
-<p>✔ Makeup Artist</p>
-
-<a
-className="book-btn"
-href={wa('PRE WEDDING OFFER 3')}
-target="_blank"
-rel="noreferrer"
->
-BOOK NOW
-</a>
-</div>
-
-</div>
-</div>
-
-{/* SONG SHOOT */}
-
-<div className="offer-group">
-
-<h3 className="group-title">🎵 SONG SHOOT OFFERS</h3>
-
-<div className="offer-row">
-
-<div className="offer-card">
-
-<div className="offer-badge">OFFER 1</div>
-
-<div className="price-box">
-<span className="old-price">₹10,000</span>
-<h2>₹6,999</h2>
-</div>
-
-<p>✔ Song Direction</p>
-<p>✔ 4K Video</p>
-<p>✔ Thumbnail</p>
-<p>✔ 10-20 Poster Photos</p>
-
-<a
-className="book-btn"
-href={wa('SONG SHOOT OFFER 1')}
-target="_blank"
-rel="noreferrer"
->
-BOOK NOW
-</a>
-</div>
-
-<div className="offer-card">
-
-<div className="offer-badge">OFFER 2</div>
-
-<div className="price-box">
-<span className="old-price">₹19,999</span>
-<h2>₹14,999</h2>
-</div>
-
-<p>✔ Song Direction</p>
-<p>✔ 4K Video</p>
-<p>✔ Thumbnail</p>
-<p>✔ 10-20 Poster Photos</p>
-<p>✔ Delhi Location (5 Hours)</p>
-<p>✔ Normal Light</p>
-<p>✔ Car For Video</p>
-
-<a
-className="book-btn"
-href={wa('SONG SHOOT OFFER 2')}
-target="_blank"
-rel="noreferrer"
->
-BOOK NOW
-</a>
-</div>
-
-<div className="offer-card bestseller">
-
-<div className="ribbon">BEST SELLER</div>
-
-<div className="offer-badge">OFFER 3</div>
-
-<div className="price-box">
-<span className="old-price">₹29,999</span>
-<h2>₹19,999</h2>
-</div>
-
-<p>✔ Song Direction</p>
-<p>✔ Sony FX3</p>
-<p>✔ 4K Video</p>
-<p>✔ Thumbnail</p>
-<p>✔ 10-20 Poster Photos</p>
-<p>✔ Delhi Location (5 Hours)</p>
-<p>✔ Normal Light</p>
-<p>✔ Car For Video</p>
-
-<a
-className="book-btn"
-href={wa('SONG SHOOT OFFER 3')}
-target="_blank"
-rel="noreferrer"
->
-BOOK NOW
-</a>
-</div>
-
-</div>
 </div>
 
 </section>
