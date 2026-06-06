@@ -22,8 +22,6 @@ return ( <section className="offer-page-song"> <div className="container">
         <p>✅ Professional Editing</p>
         <p>✅ Thumbnail Design</p>
         <p>✅ 10-20 Poster Photos</p>
-        <p>✅ 1 Location Included</p>
-        <p>✅ 4 Hours Shoot</p>
         <p>✅ YouTube Ready Delivery</p>
         <p>✅ Delivery Within 7 Days</p>
 
@@ -54,7 +52,7 @@ return ( <section className="offer-page-song"> <div className="container">
         <p>✅ Delhi Location Included</p>
         <p>✅ Car For Video Shoot</p>
         <p>✅ Basic Lighting Setup</p>
-        <p>✅ 6 Hours Shoot</p>
+        <p>✅ 4 Hours Shoot</p>
         <p>✅ YouTube Ready Delivery</p>
         <p>✅ Delivery Within 5 Days</p>
 
