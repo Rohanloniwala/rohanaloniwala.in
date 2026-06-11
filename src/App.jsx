@@ -80,50 +80,7 @@ function App() {
             WhatsApp Us
           </a>
         </nav>
-<section className="pricing-table-section" id="offers">
 
-<h2 className="offer-main-title">OUR SPECIAL OFFERS</h2>
-<div className="offer-row">
-
-  <div className="offer-card">
-    <div className="offer-badge">PRE WEDDING</div>
-
-    <div className="price-box">
-      <h2>Starting ₹19,999</h2>
-    </div>
-
-    <p>✔ 3 Premium Packages Available</p>
-    <p>✔ Cinematic Videos</p>
-    <p>✔ Edited Photos</p>
-    <p>✔ Reels Included</p>
-    <p>✔ Makeup Artist Available</p>
-
-    <a className="book-btn" href="/prewedding">
-      VIEW ALL PACKAGES
-    </a>
-  </div>
-
-  <div className="offer-card">
-    <div className="offer-badge">SONG SHOOT</div>
-
-    <div className="price-box">
-      <h2>Starting ₹6,999</h2>
-    </div>
-
-    <p>✔ 3 Song Shoot Packages</p>
-    <p>✔ 4K Production</p>
-    <p>✔ Thumbnail Design</p>
-    <p>✔ Poster Photos</p>
-    <p>✔ Sony FX3 Available</p>
-
-    <a className="book-btn" href="/songshoot">
-      VIEW ALL PACKAGES
-    </a>
-  </div>
-
-</div>
-
-</section>
         <div className="hero-grid">
           <section className="hero-left">
             <p className="tag">Premium Photography • Videography • Editing</p>
@@ -237,7 +194,50 @@ function App() {
           <img src={certificate} alt="Decathlon certificate" />
         </div>
       </section>
+<section className="pricing-table-section" id="offers">
 
+<h2 className="offer-main-title">OUR SPECIAL OFFERS</h2>
+<div className="offer-row">
+
+  <div className="offer-card">
+    <div className="offer-badge">PRE WEDDING</div>
+
+    <div className="price-box">
+      <h2>Starting ₹19,999</h2>
+    </div>
+
+    <p>✔ 3 Premium Packages Available</p>
+    <p>✔ Cinematic Videos</p>
+    <p>✔ Edited Photos</p>
+    <p>✔ Reels Included</p>
+    <p>✔ Makeup Artist Available</p>
+
+    <a className="book-btn" href="/prewedding">
+      VIEW ALL PACKAGES
+    </a>
+  </div>
+
+  <div className="offer-card">
+    <div className="offer-badge">SONG SHOOT</div>
+
+    <div className="price-box">
+      <h2>Starting ₹6,999</h2>
+    </div>
+
+    <p>✔ 3 Song Shoot Packages</p>
+    <p>✔ 4K Production</p>
+    <p>✔ Thumbnail Design</p>
+    <p>✔ Poster Photos</p>
+    <p>✔ Sony FX3 Available</p>
+
+    <a className="book-btn" href="/songshoot">
+      VIEW ALL PACKAGES
+    </a>
+  </div>
+
+</div>
+
+</section>
       <section className="contact" id="contact">
         <img className="contact-logo" src={logo} alt="RL MEDIA logo" />
         <p className="section-tag">Contact</p>
