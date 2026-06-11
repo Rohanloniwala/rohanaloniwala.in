@@ -261,5 +261,31 @@ function App() {
     </a>
   </div>
 </section>
+      <footer>
+        <div className="footer-brand">
+          <span>RL MEDIA</span>
+        </div>
 
+        <div className="footer-links">
+          <a href={instagramLink} target="_blank" rel="noreferrer">
+            Instagram
+          </a>
+
+          <a href={youtubeChannel} target="_blank" rel="noreferrer">
+            YouTube Channel
+          </a>
+
+          <a href={googleBusinessLink} target="_blank" rel="noreferrer">
+            Google Business
+          </a>
+        </div>
+
+        <p>
+          All rights reserved by RL MEDIA @2026 Photography and Videography.
+        </p>
+      </footer>
+
+    </main>
+  )
+}
 export default App
