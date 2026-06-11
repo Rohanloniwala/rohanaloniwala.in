@@ -797,3 +797,35 @@ footer p{
     max-width:350px;
   }
 }
+.pricing-table-section{
+  width:min(1100px,90%);
+  margin:80px auto;
+  padding:40px 30px;
+  border-radius:30px;
+  background:linear-gradient(rgba(0,0,0,.95),rgba(0,0,0,.95)),
+  url('./assets/pre-wedding-poster.png');
+  background-size:cover;
+  background-position:center;
+  border:1px solid rgba(214,165,55,.35);
+}
+
+.offer-main-title{
+  color:#d6a537;
+  font-size:42px;
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.offer-row{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:25px;
+}
+
+.offer-card{
+  max-width:420px;
+  margin:auto;
+  background:#0a0a0a;
+  border:1px solid #d6a537;
+  border-radius:20px;
+}
