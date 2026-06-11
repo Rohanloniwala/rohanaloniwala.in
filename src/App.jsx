@@ -238,40 +238,28 @@ function App() {
 </div>
 
 </section>
-      <section className="contact" id="contact">
-        <img className="contact-logo" src={logo} alt="RL MEDIA logo" />
-        <p className="section-tag">Contact</p>
-        <h2>Book RL MEDIA for your next shoot</h2>
-        <p className="contact-note">
-For bookings and collaborations, contact us by email.
-</p>
+    <section className="contact" id="contact">
+  <p className="section-tag">CONTACT</p>
 
-        <div className="contact-card">
-  <h3>Email</h3>
-  <a href={`mailto:${email}`}>{email}</a>
-</div>
-               </section>
+  <h2>Get In Touch</h2>
 
-      <footer>
-        <div className="footer-brand">
-          <img src={logo} alt="RL MEDIA logo" />
-          <span>RL MEDIA</span>
-        </div>
-        <div className="footer-links">
-          <a href={instagramLink} target="_blank" rel="noreferrer">Instagram</a>
-          <a href={youtubeChannel} target="_blank" rel="noreferrer">YouTube Channel</a>
-<a
-  href={googleBusinessLink}
-  target="_blank"
-  rel="noreferrer"
->
-  Google Business
-</a>
-        </div>
-        <p>All rights reserved by RL MEDIA @2026 Photography and Videography.</p>
-      </footer>
-    </main>
-  )
-}
+  <a className="contact-email" href={`mailto:${email}`}>
+    {email}
+  </a>
+
+  <div className="contact-socials">
+    <a href={instagramLink} target="_blank" rel="noreferrer">
+      Instagram
+    </a>
+
+    <a href={youtubeChannel} target="_blank" rel="noreferrer">
+      YouTube
+    </a>
+
+    <a href={googleBusinessLink} target="_blank" rel="noreferrer">
+      Google Business
+    </a>
+  </div>
+</section>
 
 export default App
