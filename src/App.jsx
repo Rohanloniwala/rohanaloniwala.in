@@ -8,6 +8,12 @@ import decathlonOne from './assets/decathlon-event-1.jpeg'
 import decathlonTwo from './assets/decathlon-event-2.jpeg'
 import certificate from './assets/decathlon-certificate.png'
 import whatsappQr from './assets/whatsapp-qr.svg'
+import {
+  FaInstagram,
+  FaYoutube,
+  FaGoogle,
+  FaEnvelope
+} from "react-icons/fa";
 const whatsappNumber = '918076869370'
 const contactNumber = '8076869370'
 const email = 'photography.rlmedia@gmail.com'
@@ -238,28 +244,36 @@ function App() {
 </div>
 
 </section>
-    <section className="contact" id="contact">
+  <section className="contact" id="contact">
+
   <p className="section-tag">CONTACT</p>
 
   <h2>Get In Touch</h2>
 
   <a className="contact-email" href={`mailto:${email}`}>
+    <FaEnvelope />
     {email}
   </a>
 
   <div className="contact-socials">
+
     <a href={instagramLink} target="_blank" rel="noreferrer">
+      <FaInstagram />
       Instagram
     </a>
 
     <a href={youtubeChannel} target="_blank" rel="noreferrer">
+      <FaYoutube />
       YouTube
     </a>
 
     <a href={googleBusinessLink} target="_blank" rel="noreferrer">
+      <FaGoogle />
       Google Business
     </a>
+
   </div>
+
 </section>
       <footer>
         <div className="footer-brand">
